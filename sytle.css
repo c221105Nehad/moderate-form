@@ -14,7 +14,7 @@ main {
     padding: 0px auto;
     border-radius: 50px;
     gap: 0;
-    box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.511);
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.511);
 
     .one {
         position: relative;
@@ -42,7 +42,13 @@ main {
 
     .one div {
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.37);
+        background-color: rgba(0, 0, 0, 0.174);
+        backdrop-filter: blur(2px);
+        border: 2px solid;
+        border-left-color:rgb(181, 211, 221);
+        border-right-color: rgb(141, 216, 241);
+        border-bottom-color: rgb(202, 222, 229);
+        border-top-color: lightblue;
         width: 80%;
         margin: auto;
         border-radius: 25px;
@@ -54,6 +60,7 @@ main {
         margin-left: 10%;
         color: white;
         font-family: monospace;
+        filter: none;
     }
 
     .two {
@@ -122,6 +129,7 @@ main {
         border-radius: 50px;
         width: 100%;
         padding: 10px;
+        cursor: pointer;
     }
 
     .two .form input[type="submit"]:hover {
@@ -151,6 +159,7 @@ main {
 
     .two .form .social-icons i:hover {
         background-color: lightseagreen;
+        color: white;
     }
 
     .two a {
