@@ -45,7 +45,7 @@ main {
         background-color: rgba(0, 0, 0, 0.174);
         backdrop-filter: blur(2px);
         border: 2px solid;
-        border-left-color:rgb(181, 211, 221);
+        border-left-color: rgb(181, 211, 221);
         border-right-color: rgb(141, 216, 241);
         border-bottom-color: rgb(202, 222, 229);
         border-top-color: lightblue;
@@ -55,7 +55,7 @@ main {
     }
 
     .one div h2 {
-        font-size: 3rem;
+        font-size: 2.95rem;
         width: 80%;
         margin-left: 10%;
         color: white;
@@ -63,8 +63,13 @@ main {
         filter: none;
     }
 
+    .one div h2 span {
+        letter-spacing: 2vw;
+    }
+
     .two {
-        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.333);
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.333),
+        0px -3px 5px rgba(0, 0, 0, 0.333);
         border-radius: 25px;
         height: 90%;
         width: 40%;
@@ -84,6 +89,7 @@ main {
     .two .welcome-description {
         font-size: 1.2rem;
     }
+
     .two .form .user-info {
         display: flex;
         flex-direction: column;
@@ -146,7 +152,7 @@ main {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        
+
     }
 
     .two .form .social-icons i {
